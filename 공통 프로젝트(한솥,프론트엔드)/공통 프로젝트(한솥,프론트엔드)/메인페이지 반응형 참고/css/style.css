@@ -81,7 +81,7 @@
 
 /*imeage size*/
 .main_cont_wrap .area_sc span.sc_img img {
-    width:1%;
+    width:100%;
     display:block; 
     overflow:hidden;
 }
@@ -242,6 +242,29 @@
     background-color: #fff; 
     margin-bottom:17px;
 }
+
+/****************************************************************************************************/
+
+/*브랜드 철학 부분 위치 조정 및 텍스트 색 조절 및 앞 뒤 순서 조정 */
+.main_cont_03 .main_hansot .main_cont_wrap .main_info .p_info {
+    position:relative; 
+    margin-top:120px; 
+    line-height:190%; 
+    z-index:1; 
+    color:#fff;
+}
+
+/*브랜드 철학 부분에 border(테두리)과 padding(테두리 안쪽) 조정*/
+.main_cont_03 .main_hansot .main_cont_wrap .main_info .p_info .s_block {
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/****************************************************************************************************/
 
 /*main_cont_04*/
 .main_cont_04 {
