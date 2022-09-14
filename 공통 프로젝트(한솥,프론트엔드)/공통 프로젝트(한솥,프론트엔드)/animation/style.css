@@ -1,0 +1,58 @@
+/*초기화 부분01*/
+* {
+
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+}
+
+/*초기화 부분02*/
+a {
+    
+    text-decoration: none;
+    
+}
+
+.container {
+    
+    width: 270px;
+    
+    height: 335px;
+    
+    background-color: #ddd;
+    
+}
+
+
+
+.container .item-img {
+
+    overflow: hidden;
+    
+}
+    
+.container .item-img img {
+    
+    max-width: 100%;
+    
+    width: 100%;
+    
+    transition-duration: 0.5s;
+    
+}
+    
+.container .item-text {
+    
+    margin-top: 20px;
+    
+    text-align: center;
+    
+}
+    
+.container:hover img {
+    
+    transform: scale(1.1);  /*사진 배율 기본1 ex)0.5= 반사이즈 2.0= 2배 사이즈*/
+}
